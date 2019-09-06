@@ -6,6 +6,7 @@
 - Validate a problem/excercise: Give the excercise/problem a rating bassed on how well formulated it is.
 - Exam: A test of student knowledge or skill in a particular subject.
 - Administrator: A user asigned to a university to manage it's students and teacher accounts.
+- Crowdsourcing: A model in which individuals or organizations obtain goods and services from a group of users that contribute to it.
 - Student: Someone who is learning at an educational institute.
 - Contribute: Rate or submit a problem/exercise
 - Educational Institute: A University that has access to the platform
