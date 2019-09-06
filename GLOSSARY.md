@@ -4,4 +4,4 @@ Piero
 Jorge
 Diego
 Maria
-Martin
+Validate a problem/excercise: Give the excercise/problem a rating bassed on how well formulated it is.
