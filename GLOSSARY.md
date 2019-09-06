@@ -10,4 +10,5 @@
 - Student: Someone who is learning at an educational institute.
 - Contribute: Rate or submit a problem/exercise
 - Educational Institute: A University that has access to the platform
+- Rate: To determine or assign the relative rank or class of
 - Term for review: Review term please
