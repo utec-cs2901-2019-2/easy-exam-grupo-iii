@@ -10,3 +10,4 @@
 - Student: Someone who is learning at an educational institute.
 - Contribute: Rate or submit a problem/exercise
 - Educational Institute: A University that has access to the platform
+- Subject: A tag that relates a question to it's especifc university course.
