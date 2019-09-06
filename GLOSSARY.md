@@ -9,3 +9,4 @@
 - Student: Someone who is learning at an educational institute.
 - Contribute: Rate or submit a problem/exercise
 - Educational Institute: A University that has access to the platform
+- CC BY-NCS-SA 4.0: A Creative Commons License that allows sharing and adapting of content if their creator is attributed, the content is noncommercial and the new adaptation has the same license.
