@@ -1,3 +1,5 @@
+# User stories
+
 ## Definition
 
 User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system.
@@ -32,3 +34,10 @@ User stories are short, simple descriptions of a feature told from the perspecti
         + User can add new questions to fill exam.
 5. Propose-question page
     + Indicate attributes/metadata: keywords
+
+## Textual form
+
+### Teacher's stories
+
+[Epic] As a Teacher I can create an exam.
+- As a Teacher I can specify what title, date, keywords correspond to such exam.
