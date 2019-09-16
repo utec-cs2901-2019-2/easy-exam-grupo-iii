@@ -19,7 +19,13 @@ Preconditions: User is logged in.
 	- EasyExam gives three questions and asks for validation.
 	- Teacher validates the questions.
 	- EasyExam generates the exam.
-- UC02
+- UC02 Practice exam
+	- Student chooses to generate exam.
+	- EasyExam request the topic of the exam.
+	- EasyExam request the difficulty of the exam.
+	- Student is given a question.
+	- Student solves the question.
+	- EasyExam request a feedback of the question.
 - UC03
 - UC04
 - UC05
