@@ -35,9 +35,25 @@ User stories are short, simple descriptions of a feature told from the perspecti
 5. Propose-question page
     + Indicate attributes/metadata: keywords
 
+
 ## Textual form
 
 ### Teacher's stories
 
-[Epic] As a Teacher I can create an exam.
-- As a Teacher I can specify what title, date, keywords correspond to such exam.
+[Epic] As a Teacher, I can create an exam.
+- As a Teacher, I can specify what title, date and keywords correspond to such exam.
+- As a Teacher, I can add new questions to fill an exam.
+- As a Teacher, I can accept a suggested question.
+
+[Epic] As a Teacher, I can login to the EasyExam Application.
+- As a Teacher, I can request the system administrator to be registered if my account hasn't been created.
+
+
+### Administrator's stories
+
+
+
+### Student's stories
+
+
+
