@@ -3,8 +3,8 @@
 ### Teacher's View
 
 1. Login
-    + Teacher's institutional address must have beem previously registered.
-        + IDEA: seeume that it wasn't registered by mistake and its address ends with the appropriate domain.
+    + Teacher's institutional address must have been previously registered.
+        + IDEA: assume that it wasn't registered by mistake and its address ends with the appropriate domain.
             + "You don't seem to have been registered, click here to issue a report to the institution"
             + Institution administrator gets notified and proceeds to register/validate the teacher manually.
     + Teacher writes institutional address and password to log in. `[goto 2]`.
