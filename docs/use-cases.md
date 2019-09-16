@@ -34,14 +34,14 @@ Preconditions: User is logged in.
 	- Administrator enters the requested details.
 	- EasyExam registers educational institute.
 - UC04 Validate questions
-	- Teacher/Student rate the questions.
-	- Teacher/Student comment on the questions.
+	- Teacher/Student rates the questions.
+	- Teacher/Student comments on the questions.
 	- EasyExam accepts Teacher/Student feedback. 
 - UC05 Practice exam
 	- Student chooses to generate exam.
-	- EasyExam request the topic of the exam.
-	- EasyExam request the difficulty of the exam.
+	- EasyExam requests the topic of the exam.
+	- EasyExam requests the difficulty of the exam.
 	- Student is given a question.
 	- Student solves the question.
-	- EasyExam request a feedback of the question.
+	- EasyExam requests a feedback of the question.
 
