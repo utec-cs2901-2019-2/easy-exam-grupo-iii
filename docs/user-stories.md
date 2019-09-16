@@ -48,12 +48,20 @@ User stories are short, simple descriptions of a feature told from the perspecti
 [Epic] As a Teacher, I can login to the EasyExam Application.
 - As a Teacher, I can request the system administrator to be registered if my account hasn't been created.
 
+[Epic] As a Teacher, I can contribute to the EasyExam Application.
+- As a Teacher, I can solve problems to contribute.
+- As a Teacher, I can rate problems to contribute.
+- As a Teacher, I can add new problems to contribute.
 
 ### Administrator's stories
 
-
+[Epic] As an Administrator, I can register an educational institute. 
+- As an Administrator, I can register a teacher of an educational institute.  
 
 ### Student's stories
 
+[Epic] As a Student, I can generate problem sets.
+- As a Student, I can select questions to fill a problem set.
 
+[Epic] As a Student, I can validate and comment on problems and exercises.
 
