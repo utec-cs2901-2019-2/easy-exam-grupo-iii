@@ -79,3 +79,10 @@ User stories are short, simple descriptions of a feature told from the perspecti
 - As a Student, I can rate problems based on their difficulty
 - As a Student, I can comment on problems for other users to see
 
+[Epic] As a Student, I can view my current courses so that I can access them separately.
+
+[Epic] As a Student, I can add new courses so that I can manage my EasyExam account easily.
+- As a Student, I can specify the keywords that describe my courses so that the service can accurately recommend me new questions.
+
+[Epic] As a Student I can view new suggested problems and exercises so that I can solve them.
+- As a Student, I can view recent solved/tried problems so that I can try them again or review my solution.
