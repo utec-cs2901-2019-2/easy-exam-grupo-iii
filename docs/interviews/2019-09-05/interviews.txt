@@ -133,7 +133,7 @@ Universidad: UNSA
 
 Notas: Henry ya sabía de la plataforma, Jesus Bellido se lo conto a los profes
 
-1. Es la primera vez que dicto, asi que me gusta enseñar, saber que estoy haciendo algo con los alumnos. Es agradable, me gusta. Es un reto. 
+1. Es la primera vez que dicto, asi que me gusta enseñar, saber que estoy haciendo algo con los alumnos. Es agradable, me gusta. Es un reto.
 
 2. En preparar clases porque tengo que estar leyendo materiales, sabiendo que esta correcto. Como diapostivas, buscar preguntas de programacion, proyectos de icc
 
@@ -147,8 +147,9 @@ Notas: Henry ya sabía de la plataforma, Jesus Bellido se lo conto a los profes
 
 7. Evaluando el nivel de la pregunta, clasificando que algoritmo se necesita, etiquetando, aumentando casos de prueba
 
-8. Es que la plataforma tiene que llegar a ser como hackerrank. Si me da la pregunta, tambien la respuesta. 
+8. Es que la plataforma tiene que llegar a ser como hackerrank. Si me da la pregunta, tambien la respuesta.
 
 9 .Claro, para que practiquen. Pero ya tendrian las preguntas de los examenes. Dependeria de la cantidad de preguntas.
 
 Comentarios: Posible funcionalidad, modificar valores en las preguntas.
+
