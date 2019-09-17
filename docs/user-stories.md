@@ -71,6 +71,15 @@ User stories are short, simple descriptions of a feature told from the perspecti
 
 ### Student's stories
 
+
+[Epic] As a Student, I can register to EasyExam 
+- As a Student, My educational institution will provide all the personal information for my profile
+- As a Student, I can use my institutional email address to register
+- As a Student, I can recover my password using my email
+
+[Epic] As a Student, I can access the EasyExam
+- As a Student, I can login with my institutional address and password
+
 [Epic] As a Student, I can generate problem sets.
 - As a Student, I can select questions to fill a problem set.
 - As a Student, I can download a group of questions to practice
