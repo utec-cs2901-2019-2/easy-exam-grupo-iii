@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "next": "^9.0.5",
+    "next-fonts": "^0.18.0",
+    "next-ga": "^2.3.4",
+    "next-routes": "^1.4.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-responsive": "^8.0.1",
+    "style-loader": "^1.0.0",
+    "styled-components": "^4.3.2",
+    "unstated": "^2.1.1",
+    "validator": "^11.1.0"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "deploy": "next build && NODE_ENV=production node server.js"
+  }
+}
