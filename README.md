@@ -17,3 +17,4 @@ Project repository for `Software Engineering I [CS2901]`.
 + Jorge Fiestas
 + María Lovatón
 + Martín Carrasco
++ Piero Marini
