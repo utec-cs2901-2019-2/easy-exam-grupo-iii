@@ -38,6 +38,15 @@ User stories are short, simple descriptions of a feature told from the perspecti
 
 ## Textual form
 
+### General stories [Student, Teacher, Administrator]
+
+[Epic] As a registered user, I can login to the EasyExam Application.
+- As a forgetful user, I can recover my password.
+
+[Epic] As a user I can register to the system.
+- As a teacher I can ask the university administrator to grant me access to a teacher account.
+- As a student I can register using my university email handle.
+
 ### Teacher's stories
 
 [Epic] As a Teacher, I can create an exam.
@@ -47,10 +56,6 @@ User stories are short, simple descriptions of a feature told from the perspecti
 - As a Teacher, I can reject a suggestion and be prompt a new question
 - As a Teacher, I can download my generated exam.
 - As a Teacher, I can access all the exams I have generated so that I can keep history of previous evaluations.
-
-[Epic] As a Teacher, I can login to the EasyExam Application.
-- As a Teacher, I can request the system administrator to be registered if my account hasn't been created.
-- As a Teacher, I can recover my password.
 
 [Epic] As a Teacher, I can contribute to the EasyExam Application.
 - As a Teacher, I can solve problems to contribute.
@@ -66,7 +71,6 @@ User stories are short, simple descriptions of a feature told from the perspecti
 - As an Administrator, I can apply a punishment to malicious users.
 
 ### Student's stories
-
 
 [Epic] As a Student, I can register to EasyExam 
 - As a Student, My educational institution will provide all the personal information for my profile
@@ -85,7 +89,7 @@ User stories are short, simple descriptions of a feature told from the perspecti
 - As a Student, I can rate problems based on their difficulty
 - As a Student, I can comment on problems for other users to see
 
-[Epic] As a Student, I can view my current courses so that I can access them separately.
+As a Student, I can view my current courses so that I can access them separately.
 
 [Epic] As a Student, I can add new courses so that I can manage my EasyExam account easily.
 - As a Student, I can specify the keywords that describe my courses so that the service can accurately recommend me new questions.
