@@ -42,8 +42,15 @@ User stories are short, simple descriptions of a feature told from the perspecti
 
 [Epic] As a Teacher, I can create an exam.
 - As a Teacher, I can specify what title, date and keywords correspond to such exam.
+- As a Teacher, I can choose which course my exam belongs to
 - As a Teacher, I can add new questions to fill an exam.
 - As a Teacher, I can accept a suggested question.
+- As a Teacher, I can reject a suggestion and be prompt a new question
+- As a Teacher, I can choose to download my generated exam
+
+[Epic] As a Teacher, I can recover my password.
+    - As a Teacher, I can request the webpage to send me an email with instructions to change my password
+    - As a Teacher, I can request a new password using my security questions
 
 [Epic] As a Teacher, I can login to the EasyExam Application.
 - As a Teacher, I can request the system administrator to be registered if my account hasn't been created.
