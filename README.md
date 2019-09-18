@@ -9,6 +9,7 @@ Project repository for `Software Engineering I [CS2901]`.
 + [User Stories](docs/user-stories.md)
 + [Target User Profile](docs/target-user-profile.md)
 + [Interviews](docs/interviews)
++ [Non-functional requirements](docs/nonfunctional-requirements.md)
 
 ## Collaborators
 
