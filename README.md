@@ -4,7 +4,7 @@ Project repository for `Software Engineering I [CS2901]`.
 
 ## Useful links
 
-+ [Glossary](docs/GLOSSARY.md)
++ [Glossary](docs/glossary.md)
 + [Use Cases](docs/use-cases.md)
 + [User Stories](docs/user-stories.md)
 + [Target User Profile](docs/target-user-profile.md)
