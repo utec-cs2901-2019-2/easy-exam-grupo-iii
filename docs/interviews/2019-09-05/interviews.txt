@@ -152,4 +152,53 @@ Notas: Henry ya sabía de la plataforma, Jesus Bellido se lo conto a los profes
 9 .Claro, para que practiquen. Pero ya tendrian las preguntas de los examenes. Dependeria de la cantidad de preguntas.
 
 Comentarios: Posible funcionalidad, modificar valores en las preguntas.
+----------------------------------------------------------------------------------------------------------------------------
 
+Nombre: Obert Marin Sanchez
+Cursos: Bioquimica, Biotecnologias y bioprocesos, Biologia molecular y celular
+
+1. 8 años de enseñanza.
+2. Principalmente prepararme yo mismo. Creo qyue alguien que viene a enseñar algo tiene que exigirse a si mismo.
+3. Para cada clase diaramente unas 4 horas. Preparar ejercicios, dinamicas, metodologias. Hay que buscar estrategias.
+4. Principalmente las preguntas nacen de lo que se conversa diaramente con los estudiantes. Salen de la necesidad de los alumnos a aprender. En ese caso concepto basicos que se dan por hecho.
+5. La mejor forma de mejorar es a travez de feedback. Antes el sistema es que el alumno no era parte del sistema de evaluacion . Ahora ha cambiado. El intercambio de conocimientos siempre es bueno.
+6. Pienso que es un gran aporte. Es importante tener feed. Por ejemplo para inspirarse en preguntas.
+7. Preferiria contribuir de manera a hacer ejercicios
+
+8. Poner una pregunta que el alumno entienda. Si el alumno es capaz de hacer la pregunta y resonderla. La idea es que el alumno pueda aplicar su conocimiento al mundo real. Ejercicios que salgan a parte de mis experiencias. De los debates. No hay una fuente certera. Yo siempre crei que los examenes se deberian hacer en clase. La idea es complementar y motivar a saber mas respecto al tema.
+---------------------
+
+Name: Henry Gallegos
+Curso: ICC
+
+1. A los nuevo estudiantes hay que darles paso por paso. Algunos ya saben pero muchos se pierden. Tengo que analizar a cada almuno para saber en que apoyarlo. Trato de explicarles lo mas detallado y a otro grupo le doy mas ejercicios. Es mas dificil estarles explicando a cada uno.
+2. Busqueda y nivel de pregunta. La complejidad de si los alumnos.
+3. 4-5-6 horas
+4. Como va al grupo. Trato de resolver la pregunta. Si eso se ha hecho en clase.
+5. Hay que buscar examenes. Ver que se ha hecho en clase. Generalmente internet
+6. Si me gustaria usar una plataforma.
+7. Yo haria las dos.
+8. Yo los analizaria igual. Veria si puedo aplicarlos.
+9. Seria bueno pero los alumnos deberian tener acceso a todas las preguntas. Podria acceder a todas.
+
+----------------------------------------------------------------------------------------------------------------------------
+Nombre Teofilo Chambilla
+Edad
+Curso: BD 1, POO1
+
+1.  Hay que tener cuidad porque hay chicos que todabiua no saben bien como rpogramar. No saben como llegaron de ICC. En base de datos todos son CS. Tratamos de aplicar un poco mas de compeljidad. Siempre hay la gente que no le gusta leer. No revisan la bibliografia. Es mas emocionante ensenar base de datos en teoria y laboratorio.
+
+2.  Pensar en los ejercicios
+3. Por curso, como 3 horas o cuatro horas. En base de datos no tanto. Nos demoramos en las practicas.
+4. Primero en POO veo que sea capaz de resolver por los temas que hemos visto. Pero es aceptable si el alumno usa temas avanzados para resolver el ejercicios. Sin embargo esta limita a lo que se enseña.
+5. Internet, libros, etc. En Base de datos los discutimos con el profesor Heider. Normalmente son preguntas nuevas. Pero para los laboratorios consideramos los laboratorios anteriores.
+
+Estamos desarrollando una plataforma que facilita la creación de exámenes a través del intercambio de ejercicios entre profesores.
+
+6. ¿Estarías dispuesto a usar algo así? Nuestras soluciones estan en gihub. Yo normal. En base de datos no nos hemos puesto de acuerdo.
+7. ¿De qué manera preferirías contribuir? De ambas.
+    + Resolviendo preguntas ya hechas
+    + Dando un ejercicio
+    + Otro
+8. ¿Cuánto confiarías en una plataforma de ese tipo? YNO habria problema.
+9. ¿Te parecería que los alumnos tuvieran algún tipo de acceso (ya sea restringido o completo)? Seria genial, como una guia. Para que los alumnos practiquen con una referencia de UTEC y ahi estan los ejercicios. O el profe se basa en estos ejercicios. En la U de chile hay un compartido de todos los ejercicios hecho por los alumnos y toda la universidad.
