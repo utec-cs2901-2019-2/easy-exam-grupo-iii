@@ -23,4 +23,3 @@ Estamos desarrollando una plataforma que facilita la creación de exámenes a tr
     + Otro
 8. ¿Cuánto confiarías en una plataforma de ese tipo?
 9. ¿Te parecería que los alumnos tuvieran algún tipo de acceso (ya sea restringido o completo)?
-
