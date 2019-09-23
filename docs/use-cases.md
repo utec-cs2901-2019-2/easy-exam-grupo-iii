@@ -43,5 +43,4 @@ Preconditions: User is logged in.
 	- EasyExam requests the difficulty of the exam.
 	- Student is given a question.
 	- Student solves the question.
-	- EasyExam requests a feedback of the question.
-
+	- EasyExam requests a feedback of the question. (UC04)
