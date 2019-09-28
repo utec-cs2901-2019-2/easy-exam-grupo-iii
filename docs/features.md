@@ -26,7 +26,7 @@
         - As a Student, I can randomly generate a problem set according to my specifications.
         - As a Student, I can download a group of questions to practice.
 
-- **Organization**
+- **Dashboard (exam organization)**
     - [Epic] As a Teacher, I can view the courses I'm teaching in the dashboard so that I can access their correspondent exams separately.
     - [Epic] As a Student, I can add new courses so that I can manage my EasyExam account easily.
         - As a Student, I can specify the keywords that describe my courses so that the service can accurately recommend me new questions.
