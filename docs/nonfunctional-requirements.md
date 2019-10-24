@@ -6,7 +6,7 @@ Defines how a system is supposed to be and can be used as criteria to judge the 
 
 ## Requirements
 
-1. Response time for Exam Creation lower than 4 seconds
+1. The response time for Exam Creation must be lower than 4 seconds.
 2. Every new question submitted by a **teacher** will be available to the other users immediately after refreshing the page
 3. User profiles and personal information will be private and not accesible by any other user or administrator outside it's assigned University domain.
 4. The EasyExam platform will be maintainable and scalable
