@@ -4,9 +4,9 @@ The platform is focused on universities and institutes that look to access and s
 
 ## Teacher
 
-Licensed higher level teachers that are looking for reliable problems and exercises. *EasyExam* should allow these teachers to explore, store and manage problems and exercises, as well as help them to generate exams and problem sets.
+Licensed higher level teachers that are looking for reliable problems and exercises. *EasyExam* should allow these teachers to explore, store and manage problems and exercises, as well as help them to generate exams.
 
 ## Student
 
-Students that are looking for better ways to study and practice a certain subject. *EasyExam* will allow these students to generate problem sets and explore problems and exercises so that they can study.
+Students that are looking for better ways to learn and practice a certain subject. *EasyExam* will allow these students to explore problems and exercises so they can practice such skills.
 

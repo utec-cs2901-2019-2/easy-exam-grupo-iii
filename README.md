@@ -4,10 +4,7 @@ Project repository for `Software Engineering I [CS2901]`.
 
 ## Useful links
 
-+ [Glossary](docs/GLOSSARY.md)
-+ [Use Cases](docs/use-cases.md)
-+ [User Stories](docs/user-stories.md)
-+ [Target User Profile](docs/target-user-profile.md)
++ [Wiki](https://github.com/utec-cs2901-2019-2/easy-exam-grupo-iii/wiki)
 + [Interviews](docs/interviews)
 
 ## Collaborators
@@ -17,3 +14,4 @@ Project repository for `Software Engineering I [CS2901]`.
 + Jorge Fiestas
 + María Lovatón
 + Martín Carrasco
++ Piero Marini
