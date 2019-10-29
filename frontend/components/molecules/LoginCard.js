@@ -12,8 +12,9 @@ const Wrapper = styled.div`
 	top: 29%;
 
 	@media (max-width: 1200px) {
-		left: 28%;
+		left: 33%;
 		right: auto;
+		color: white;
   }
 `;
 
@@ -40,6 +41,10 @@ const ForgotPassword = styled.div`
 	color: #969696;
 	text-align: right;
 	padding: 7px 11px 0 0;
+
+	@media (max-width: 1200px) {
+			color: white;
+		}
 `;
 
 const SignUp = styled.div`
@@ -48,6 +53,10 @@ const SignUp = styled.div`
 	padding: 11px 0 0 5px;
 	font-weight: bold;
 	font-size: 14px;
+	
+	@media (max-width: 1200px) {
+			color: white;
+		}
 `;
 
 class LoginCard extends Component {
@@ -113,7 +122,7 @@ class LoginCard extends Component {
 						fontColor="#FFFFFF"
 					>
 						LOGIN
-				</Button>
+					</Button>
 					<SignUp onClick={onSignUp}>
 							Don’t have an account?
 						<span css={css`color: #FD7576`}> Sign Up </span>
@@ -126,6 +135,7 @@ class LoginCard extends Component {
 
 LoginCard.defaultProps = {
 	onChangeFields: () => {},
+	isMobile: false,
 };
 
 LoginCard.propTypes = {

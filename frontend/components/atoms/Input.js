@@ -5,7 +5,7 @@ import { css } from '@emotion/core';
 
 const Wrapper = styled.div`
   border-radius: 4px;
-  background-color: ${(props) => (props.disabled ? '#DADADE' : '#f3f2f7')};
+  background-color: ${(props) => (props.disabled ? '#DADADE' : 'transparent')};
 
   padding: 0px 10px;
   display: flex;
@@ -33,7 +33,7 @@ const Wrapper = styled.div`
   }};
 `;
 const IDInput = styled.input`
-  background-color: ${props => (props.disabled ? '#DADADE' : '#f3f2f7')};
+  background-color: ${(props) => (props.disabled ? '#DADADE' : 'transparent')};
   border: none;
   padding: 8px;
   font-size: 1.5em;
@@ -42,6 +42,9 @@ const IDInput = styled.input`
 	border-bottom: solid;
 	width: 100%;
 	color: #67707D;
+	@media (max-width: 1200px) {
+			color: white;
+		}
   :active {
 		outline: none;
 		border-bottom-color: #FD7576;
@@ -52,6 +55,9 @@ const IDInput = styled.input`
 
   }
   ::placeholder {
+		@media (max-width: 1200px) {
+			color: white;
+		}
     /* Chrome, Firefox, Opera, Safari 10.1+  */
     opacity: 1; /* Firefox */
   }
@@ -77,11 +83,11 @@ class Input extends React.Component {
 	constructor(props) {
 		super(props);
 
-		const { defaultValue, withError } = this.props;
+		const { defaultValue, withError, active } = this.props;
 
 		this.state = {
 			text: defaultValue,
-			active: this.props.active,
+			active,
 			hover: false,
 			hasError: withError,
 			errorMessage: '',
@@ -98,7 +104,14 @@ class Input extends React.Component {
 
 	onChange = async e => {
 		const { value } = e.target;
-		const { formatter, withError, validator } = this.props;
+		const {
+			formatter,
+			parser,
+			withError,
+			validator,
+			errorMessage,
+			onChange,
+		} = this.props;
 		const { text } = this.state;
 
     let value_ = value;
@@ -115,11 +128,11 @@ class Input extends React.Component {
 
     if (!withError) {
       if (validator === undefined) {
-        await this.setState(s => {
+        await this.setState( s => {
           return {
             ...s,
             hasError: false,
-            errorMessage: this.props.errorMessage
+            errorMessage,
           };
         });
       } else {
@@ -130,20 +143,23 @@ class Input extends React.Component {
         return {
           ...s,
           hasError: true,
-          errorMessage: this.props.errorMessage
+          errorMessage,
         };
       });
     }
     let returnedValue = text;
-    if (this.props.parser) {
-      returnedValue = this.props.parser(returnedValue);
+    if (parser) {
+      returnedValue = parser(returnedValue);
     }
-    this.props.onChange(returnedValue);
+    onChange(returnedValue);
   };
 
-  onKeyPress = e => {
-    if (e.key === "Enter") {
-      this.props.onEnterPressed(this.state.text);
+  onKeyPress = (e) => {
+		const { onEnterPressed } = this.props;
+		const { text } = this.state;
+
+    if (e.key === 'Enter') {
+      onEnterPressed(text);
     }
   };
 
@@ -159,14 +175,17 @@ class Input extends React.Component {
 	}
 
 	validate = () => {
-    if (typeof this.props.validator === 'function') {
-      const result = this.props.validator(this.state.text);
+		const { validator, errorMessage } = this.props;
+		const { text } = this.state;
+
+    if (typeof validator === 'function') {
+      const result = validator(text);
       if (typeof result === 'boolean') {
         this.setState(s => {
           return {
             ...s,
             hasError: result,
-            errorMessage: this.props.errorMessage
+            errorMessage,
           };
         });
       } else if (typeof result === 'object') {
@@ -174,17 +193,17 @@ class Input extends React.Component {
           return {
             ...s,
             hasError: result.hasError,
-            errorMessage: result.message || this.props.errorMessage
+            errorMessage: result.message || errorMessage
           };
         });
       }
-    } else if (this.props.validator instanceof RegExp) {
-      const result = this.props.validator.test(this.state.text);
+    } else if (validator instanceof RegExp) {
+      const result = validator.test(text);
       this.setState(s => {
         return {
           ...s,
           hasError: result,
-          errorMessage: this.props.errorMessage
+          errorMessage,
         };
       });
     }
@@ -196,14 +215,17 @@ class Input extends React.Component {
 			size,
 			name,
 			text,
+			ref,
 			label,
 			style,
 			type,
 			disabled,
 			prefix,
 			placeholder,
+			suffix,
+			onBlur,
 		} = this.props;
-		const { active, hasError } = this.state;
+		const { active, hasError, errorMessage } = this.state;
 
     // TODO: Write below options
     if (size === 'default') {
@@ -229,32 +251,30 @@ class Input extends React.Component {
             value={text || ''}
             type={type}
             placeholder={placeholder}
-            ref={this.props.ref}
+            ref={ref}
             disabled={disabled}
             // autoComplete={"off"}
-            onFocus={() =>
-              this.setState(s => {
+            onFocus={() => this.setState(s => {
                 return { ...s, active: true };
               })
             }
-            onBlur={() =>
-              this.setState(
+            onBlur={() => this.setState(
                 s => {
                   return { ...s, active: false };
                 },
                 () => {
-                  if (this.props.onBlur) {
-                    this.props.onBlur();
+                  if (onBlur) {
+                    onBlur();
                   }
                 }
               )
             }
             onKeyPress={this.onKeyPress}
           />
-          {this.props.suffix}
+          {suffix}
         </Wrapper>
-        {this.state.hasError && (
-          <ErrorMessage>{this.state.errorMessage}</ErrorMessage>
+        {hasError && (
+          <ErrorMessage>{errorMessage}</ErrorMessage>
         )}
       </div>
     );
@@ -275,6 +295,7 @@ Input.propTypes = {
   placeholder: PropTypes.string,
   type: PropTypes.string,
   onChange: PropTypes.func,
+	onEnterPressed: PropTypes.func,
   prefix: PropTypes.oneOfType([PropTypes.element, PropTypes.string]),
   suffix: PropTypes.oneOfType([PropTypes.element, PropTypes.string]),
   ref: PropTypes.any,
@@ -282,7 +303,6 @@ Input.propTypes = {
   style: PropTypes.object,
   size: PropTypes.string,
   disabled: PropTypes.bool,
-  onEnterPressed: PropTypes.func,
   validator: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
   errorMessage: PropTypes.oneOfType([
     PropTypes.element,

@@ -5,13 +5,19 @@ import styled from '@emotion/styled';
 import WaveOne from '../components/atoms/WaveOne';
 import LoginCard from '../components/molecules/LoginCard';
 
+const Wrapper = styled.div`
+	@media (max-width: 1200px) {
+			color: white;
+		}
+`;
+
 class LogIn extends Component {
 	render() {
 		return (
-			<div>
+			<Wrapper>
 				<WaveOne />
 				<LoginCard />
-			</div>
+			</Wrapper>
 		);
 	}
 }

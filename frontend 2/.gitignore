@@ -1,7 +1,0 @@
-node_modules
-.next
-yarn.lock
-build
-dist
-.idea
-.DS_Store
