@@ -1,11 +1,16 @@
 import React from 'react';
-import App, { Container } from 'next/app';
+import App from 'next/app';
+import { Provider, Subscribe } from 'unstated';
+import MediaQuery from 'react-responsive';
 import Head from 'next/head';
 import GlobalStyle from '../utils/globalStyle';
+import AuthContainer from '../containers/authContainer';
 
 const PUBLIC_ROUTES = [
+	'/',
 	'/test',
 ];
+
 
 class MyApp extends App {
 	state = {
@@ -22,9 +27,35 @@ class MyApp extends App {
 				<Head>
 					<title>EasyExam</title>
 				</Head>
-				<body>
-					<Component {...pageProps} />
-				</body>
+				<Provider>
+					<Subscribe to={[AuthContainer]}>
+						{authState => {
+							return (
+								<div>
+								{authState.isLoggedIn() || PUBLIC_ROUTES.includes(this.props.router.pathname) ? (
+                    <div>
+                      {authState.isLoggedIn() ? (
+                        <MediaQuery maxWidth={720}>
+                          {isMobile => {
+                            return (
+                             <div>
+															hola
+                             </div>
+                            );
+                          }}
+                        </MediaQuery>
+                      ) : null}
+                      <Component {...pageProps} />
+                      {console.log(authState.state.userData)}
+                    </div>
+                  ) : (
+                    <div />
+                  )}
+                </div>
+              );
+            }}
+					</Subscribe>
+				</Provider>
 			</html>
 		);
 	}
