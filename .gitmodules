@@ -1,0 +1,3 @@
+[submodule "easy-exam-front"]
+	path = easy-exam-front
+	url = git@github.com:andrea1diaz/easy-exam-front.git
