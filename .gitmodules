@@ -4,3 +4,6 @@
 [submodule "easyexam-backend"]
 	path = easyexam-backend
 	url = git@github.com:pmariniutec/easyexam-backend.git
+[submodule "easyexam-frontend"]
+	path = easyexam-frontend
+	url = git@github.com:pmariniutec/easyexam-frontend.git
